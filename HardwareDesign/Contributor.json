@@ -1,0 +1,99 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "Contributor",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "firstname": "Jose Carlos",
+            "lastname": "Jose Carlos",
+            "references": {
+                "github": "jurra",
+                "gitlab": "jurra",
+                "website": "jurra.github.io"
+            }
+        }
+    ],
+    "required": [
+        "firstname",
+        "lastname",
+        "references"
+    ],
+    "properties": {
+        "firstname": {
+            "$id": "#/properties/firstname",
+            "type": "string",
+            "title": "The firstname schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Jose Carlos"
+            ]
+        },
+        "lastname": {
+            "$id": "#/properties/lastname",
+            "type": "string",
+            "title": "The lastname schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+                "Jose Carlos"
+            ]
+        },
+        "references": {
+            "$id": "#/properties/references",
+            "type": "object",
+            "title": "The references schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "github": "jurra",
+                    "gitlab": "jurra",
+                    "website": "jurra.github.io"
+                }
+            ],
+            "required": [
+                "github",
+                "gitlab",
+                "website"
+            ],
+            "properties": {
+                "github": {
+                    "$id": "#/properties/references/properties/github",
+                    "type": "string",
+                    "title": "The github schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "jurra"
+                    ]
+                },
+                "gitlab": {
+                    "$id": "#/properties/references/properties/gitlab",
+                    "type": "string",
+                    "title": "The gitlab schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "jurra"
+                    ]
+                },
+                "website": {
+                    "$id": "#/properties/references/properties/website",
+                    "type": "string",
+                    "title": "The website schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": "",
+                    "examples": [
+                        "jurra.github.io"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}

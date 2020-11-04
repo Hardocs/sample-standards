@@ -1,0 +1,15 @@
+{
+    "Component": {
+      "name": "Arduino UNO",
+      "quantity": 1,
+      "specifications": {
+        "voltage": "12 V",
+        "processor": null,
+        "datasheet": "link"
+      },
+      "assets": [
+        "board.STEP",
+        "schematic.pdf"
+      ]
+    }
+  }

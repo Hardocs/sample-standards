@@ -1,0 +1,9 @@
+name: Arduino UNO
+quantity: 1
+specifications:
+  voltage: 12 V
+  processor:
+  datasheet: link
+assets:
+  - board.STEP
+  - schematic.pdf
