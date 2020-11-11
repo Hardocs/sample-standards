@@ -1,0 +1,15 @@
+{
+  "path": "C:\\vagrant\\release\\clones\\hardocs-data\\sample-standards\\samples\\Gnu Demo Project",
+  "entryFile": "index.md",
+  "docsDir": "docs",
+  "dataSet": {
+    "id": "894d7433-1093-4b10-89f8-51c83af31945",
+    "path": "C:\\vagrant\\release\\clones\\hardocs-data\\sample-standards\\samples",
+    "docsDir": "docs",
+    "entryFile": "index.md",
+    "name": "Gnu Demo Project",
+    "shortTitle": "GnuProj",
+    "updatedAt": "new Date().toISOString()",
+    "dataSet": {}
+  }
+}
